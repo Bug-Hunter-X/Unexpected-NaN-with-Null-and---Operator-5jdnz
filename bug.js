@@ -1,0 +1,1 @@
+function foo(a,b){return a+b;}console.log(foo(1,null)); //NaN.  This happens because the + operator does type coercion, and null is coerced to 0, but this is not always expected behavior. 

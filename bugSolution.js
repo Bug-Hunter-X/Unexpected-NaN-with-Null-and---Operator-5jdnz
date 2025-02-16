@@ -1,0 +1,1 @@
+function foo(a,b){ if(a===null) a=0; if(b===null) b=0; return a+b;}console.log(foo(1,null)); //1. Explicitly handling null values before addition prevents NaN.
